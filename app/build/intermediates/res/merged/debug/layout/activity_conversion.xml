@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.multimega.kaperskyguru.crytoconverter.conversion">
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="currency"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/btc_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/eth_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:layout_below="@+id/btc_value"
+        android:layout_alignStart="@+id/btc_value" />
+
+    <EditText
+        android:id="@+id/init_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:layout_below="@+id/currency"
+        android:layout_alignStart="@+id/btc_value"
+        android:layout_marginTop="69dp" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eth_value"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#AAA"
+        android:onClick="convert"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/init_value"
+        android:layout_alignBottom="@+id/init_value"
+        android:layout_toLeftOf="@+id/currency"
+        android:layout_toStartOf="@+id/currency"
+        android:text="Convert From"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignTop="@+id/btc_value"
+        android:layout_marginTop="12dp"
+        android:text="To Bitcion"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/eth_value"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView2"
+        android:text="To Etherium"
+        android:textSize="15sp" />
+
+</RelativeLayout>

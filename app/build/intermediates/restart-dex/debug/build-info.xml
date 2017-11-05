@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="1426096900331"
+    token="579289505243733159" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="507053582440" >
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="1260245103332" >
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_5e1160aaa18573fd357e83b0a59e4edc438372a1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_9679e61e0786f035f0c115140585a211a8b8c4ba\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\2\junit-4.12_858e5dfc61b3ab282817747398ead83df5f3cdea\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_ce470dcf53ff5fa596bb93da92d94ea9aa3ffb1c\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_813d3a239d64fbed707bf74387b88bad8319ec25\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ede3627930f62fe8c8855b8b00198e5425e98190\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_1d38620554c08f1d4be8e1c13b464bc5bbce035c\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_0a777ea5fda620311224b823c8f7c7c65efb5027\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_bfd9db6d0273c9492250d796228424cb5439a3e7\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1426096900331" >
+        <artifact
+            location="C:\Users\Kapersky Guru\AndroidStudioProjects\CrytoConverter\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>
