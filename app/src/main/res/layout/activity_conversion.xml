@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         android:text="currency"
         android:textSize="30sp" />
 
@@ -20,37 +20,33 @@
         android:id="@+id/btc_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/currency"
-        android:layout_marginTop="194dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:id="@+id/eth_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btc_value"
-        android:layout_alignStart="@+id/btc_value"
-        android:layout_below="@+id/btc_value"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0"
+        android:layout_below="@+id/btc_value"
+        android:layout_alignStart="@+id/btc_value" />
 
     <EditText
         android:id="@+id/init_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/eth_value"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="64dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0"
+        android:layout_below="@+id/currency"
+        android:layout_alignStart="@+id/btc_value"
+        android:layout_marginTop="69dp" />
 
     <Button
         android:id="@+id/convert"
@@ -81,7 +77,7 @@
         android:layout_alignEnd="@+id/textView"
         android:layout_alignRight="@+id/textView"
         android:layout_alignTop="@+id/btc_value"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="12dp"
         android:text="To Bitcion"
         android:textSize="15sp" />
 
@@ -93,6 +89,7 @@
         android:layout_alignStart="@+id/textView2"
         android:layout_alignTop="@+id/eth_value"
         android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView2"
         android:text="To Etherium"
         android:textSize="15sp" />
 

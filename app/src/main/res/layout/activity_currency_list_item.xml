@@ -16,10 +16,10 @@ android:paddingStart="16dp">
     android:layout_height="wrap_content"
     android:layout_weight="1"
     android:layout_gravity="start"
-    android:textColor="#9C27B0"
+    android:textColor="#ffffff"
     android:textSize="13sp"
     android:textStyle="bold"
-    tools:text="Username" />
+    tools:text="Currency" />
 
 <TextView
     android:id="@+id/btc_view"
@@ -27,20 +27,20 @@ android:paddingStart="16dp">
     android:layout_weight="1"
     android:layout_height="wrap_content"
     android:layout_gravity="start"
-    android:textColor="#9C27B0"
+    android:textColor="#00d9ff"
     android:textSize="13sp"
     android:textStyle="bold"
-    tools:text="Username" />
+    tools:text="Bitcoin" />
 
 <TextView
     android:id="@+id/etherum_view"
     android:layout_width="0dp"
     android:layout_weight="1"
     android:layout_height="wrap_content"
-    android:textColor="#000"
+    android:textColor="#ffffff"
     android:textStyle="italic"
     android:layout_gravity="start"
     android:textSize="13sp"
-    tools:text="Url" />
+    tools:text="Etherum" />
 
 </LinearLayout>
